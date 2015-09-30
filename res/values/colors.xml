@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="facebook_login_btn_background_color">#33FF00</color>
+    <color name="action_bar_background">#00CC00</color>
+    
+    <color name="login_background_color">#3B5998</color>
+    
+</resources>

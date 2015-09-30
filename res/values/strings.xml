@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AclubUser</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_label">Login</string>
+    <string name="register_label">Register</string>
+    <string name="register_facebook">Register by Facebook</string>
+    <string name="register_title">Register</string>
+
+    <string-array name="countries_array">
+        <item>Viet Nam</item>
+        <item>England</item>
+    </string-array>
+
+    <string name="confirm_register_title">Confirm</string>
+    <string name="privacy_policy_register">For using Aclub, you have to verify your account by your number phone or Facebook account. After agreement with our</string>
+    <string name="agree_term_con">Term and Conditions</string>
+    <string name="and">and</string>
+    <string name="security_policy">Security Policy</string>
+    <string name="go_next">, press Confirm</string>
+    <string name="error_register_infor_message">Please completely enter out this form</string>
+    <string name="ok_aclub_label">Ok</string>
+    <string name="cancel_aclub_label">Cancel</string>
+    <string name="send_sms_register_noti">We will send the verify number to this number via SMS</string>
+    <string name="send_otp_pass_noti">Please input the verify password which was received via SMS. If you did not receive this password, please try to.</string>
+    <string name="send_otp_pass_again">Send OTP pass again</string>
+    <string name="email_hint">EMAIL</string>
+    <string name="password_hint">PASSWORD</string>
+    <string name="login_action_bar_title">Login</string>
+    <string name="forgot_pass"><u>Forgot Password?</u></string>
+    <string name="facebook_app_id">866048466813979</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="not_yet_register_email">Email was not registered</string>
+    <string name="full_name">Full Name</string>
+    <string name="update_profile_guide">Please input name and avatar for helping other friend find you. Other Aclub user can view the name and avatar of you. The below setting will use your number phone and your contact address. Please click to this setting to view the details of settings </string>
+    <string name="add_friend_automatic">Add friend automatically</string>
+    <string name="allow_more_friend">Allow more friend</string>
+    <string name="error_num_register_before">This number was registered before</string>
+    <string name="error_title">Error</string>
+    <string name="put_num_login">Please put your number to login</string>
+    <string name="number_phone">Number phone</string>
+    <string name="login_by_email">Login by Email</string>
+
+    <string name="login_title">Login</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/action_bar_email_register_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/action_bar_layout" >
+    </include>
+
+    <EditText
+        android:id="@+id/email_edt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action_bar_email_register_layout"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/spinner_country_martin_top"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_edt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_edt"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/register_default_martin_top"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/forgot_pass_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_edt"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/register_default_martin_top"
+        android:text="@string/forgot_pass"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/for_got_pass_text_size" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_facebook_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/register_default_martin_top"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/register_default_martin_top"
+        facebook:com_facebook_confirm_logout="true"
+        facebook:com_facebook_tooltip_mode="never_display" />
+
+    <Button
+        android:id="@+id/not_yet_register_email_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/login_facebook_btn"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/register_default_martin_top"
+        android:background="@color/login_background_color"
+        android:text="@string/not_yet_register_email"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/login_register_email_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/not_yet_register_email_btn"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/register_default_martin_top"
+        android:background="@color/login_background_color"
+        android:text="@string/login_action_bar_title"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

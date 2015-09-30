@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AclubUser</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_label">Đăng nhập</string>
+    <string name="register_label">Đăng ký</string>
+    <string name="register_facebook">Đăng nhập bằng Facebook</string>
+
+</resources>

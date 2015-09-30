@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/action_bar_phone_login_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/action_bar_layout" >
+    </include>
+
+    <TextView
+        android:id="@+id/put_your_num_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action_bar_phone_login_layout"
+        android:layout_marginTop="@dimen/phone_login_guide_martin_top"
+        android:gravity="center_horizontal"
+        android:text="@string/put_num_login"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/login_by_phone_guide_text_size" />
+
+    <EditText
+        android:id="@+id/put_your_num_edt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/put_your_num_tv"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/register_default_martin_top"
+        android:hint="@string/number_phone"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/login_by_email_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/put_your_num_edt"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/register_default_martin_top"
+        android:gravity="end"
+        android:text="@string/login_by_email"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/login_confirm_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_by_email_tv"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/confirm_login_by_phone_martin_top"
+        android:background="@color/action_bar_background"
+        android:text="@string/confirm_register_title"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

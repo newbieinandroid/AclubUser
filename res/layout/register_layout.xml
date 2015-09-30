@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/action_bar_register_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:layout_alignParentTop="true"
+        layout="@layout/action_bar_layout" >
+    </include>
+
+    <Spinner
+        android:id="@+id/country_spinner_register_layout"
+        android:layout_width="@dimen/spinner_country_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action_bar_register_layout"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/spinner_country_martin_top" />
+
+    <EditText
+        android:id="@+id/phone_number_register_layout_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/country_spinner_register_layout"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/register_default_martin_top"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/register_buton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/register_button_martin_bottom"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:background="@color/action_bar_background"
+        android:text="@string/confirm_register_title"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/register_button_text_size" />
+
+    <ScrollView
+        android:id="@+id/privacty_scroll_view_register"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/register_buton"
+        android:layout_below="@id/phone_number_register_layout_edt"
+        android:layout_marginBottom="@dimen/register_default_martin_top"
+        android:layout_marginLeft="@dimen/spinner_country_martin_left"
+        android:layout_marginRight="@dimen/spinner_country_martin_left"
+        android:layout_marginTop="@dimen/register_default_martin_top" >
+
+        <TextView
+            android:id="@+id/privacy_register_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/privacy_policy_register" />
+    </ScrollView>
+
+</RelativeLayout>
