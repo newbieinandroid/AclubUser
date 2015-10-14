@@ -9,6 +9,7 @@ import com.daimajia.slider.library.Animations.BaseAnimationInterface;
 public class ChildAnimationExample implements BaseAnimationInterface {
 
     private final static String TAG = "ChildAnimationExample";
+    
 
     @Override
     public void onPrepareCurrentItemLeaveScreen(View current) {
