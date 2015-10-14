@@ -30,7 +30,7 @@ import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.daimajia.slider.library.Tricks.ViewPagerEx;
 import com.facebook.appevents.AppEventsLogger;
-
+//test
 public class MainActivity extends BaseActivity implements
 		BaseSliderView.OnSliderClickListener, ViewPagerEx.OnPageChangeListener,
 		View.OnClickListener {
