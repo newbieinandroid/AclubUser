@@ -27,6 +27,7 @@ public class ChildAnimationExample implements BaseAnimationInterface {
             next.findViewById(com.daimajia.slider.library.R.id.description_layout).setVisibility(View.INVISIBLE);
         }
         Log.e(TAG,"onPrepareNextItemShowInScreen called");
+        
     }
 
     @Override
